@@ -82,11 +82,11 @@ public class OrderAction_4_21 extends ActionSupport{
 			am=getNumber().intValue()*250;
 			break;
 		case 300:
-			pn="Java";
+			pn="Struts";
 			am=getNumber().intValue()*300;
 			break;
 		case 280:	
-			pn="Java";
+			pn="C#";
 			am=getNumber().intValue()*280;
 			break;
 		default:

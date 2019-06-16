@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		
+	    <action name="order_4_21" class="action.OrderAction_4_21">
+			<result name="success">/order_success_4_21.jsp</result>
+			<result name="fail">/login_4_21.jsp</result>
+		</action>
+		
+		<action name="add_4_21" class="action.AddAction_4_21">
+			<result name="success">/success_4_21.jsp</result>
+			<result name="fail">/fail_4_21.jsp</result>
+		</action>
+		
+		<action name="delete_4_21" class="action.DeleteAction_4_21">
+			<result name="success">/success_4_21.jsp</result>
+		</action>
+		
+		<action name="update_4_21" class="action.UpdateAction_4_21">
+			<result name="success">/success_4_21.jsp</result>
+		</action>
+		
+		<action name="load_4_21" class="action.LoadAction_4_21">
+			<result name="success">/success_load_4_21.jsp</result>
+		</action>
+		
+		<action name="login_4_21" class="action.LoginAction_4_21">
+			<result name="success">/product_4_21.jsp</result>
+			<result name="admin">/admin_4_21.jsp</result>
+			<result name="fail">/login_fail_4_21.jsp</result>
+		</action>
+		
+	</package>
+
+</struts>
